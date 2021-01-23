@@ -96,6 +96,7 @@ ul {
   padding: 2rem;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
   justify-content: space-between;
+  align-items: center;
   max-width: 75%;
 }
 
@@ -114,7 +115,6 @@ ul {
   background: #16222a; /* fallback for old browsers */
   background: -webkit-linear-gradient (to left, #3a6073, #16222a); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient (to left, #3a6073, #16222a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 }
 
 .social-links {
@@ -137,6 +137,9 @@ ul {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-
-} */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
