@@ -142,3 +142,9 @@ ul {
 .social-links svg:hover {
     filter: blur(1px);
 }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    glass {
+        background: red;
+    }
+}
